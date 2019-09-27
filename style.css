@@ -1,0 +1,64 @@
+body{
+  font-family: 'Satisfy', cursive;
+   margin:0;
+   padding:0;
+   background: #34495E
+}
+
+.navigation{
+   border: 1px #34495E;
+   display: flex;
+   margin:0;
+   padding:0;
+   justify-content:center;
+   background: #34495E;
+
+}
+
+.navigation li {
+  margin: 6px;
+  padding: 6px;
+  flex-direction:row;
+  list-style: none;
+  font-size:150%;
+}
+a{
+  text-decoration:none;
+}
+
+/* Style the navbar */
+#navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Navbar links */
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+/* Page content */
+.navigation {
+  padding: 16px;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
