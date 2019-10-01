@@ -1,27 +1,83 @@
 body{
-  font-family:
-   margin:0;
-   padding:0;
-   background: #34495E
+  font-family: 'font-family: 'Titillium Web'
+  margin: 0;
+  padding: 0;
+  height: 200%;
+  background: linear-gradient(45deg, #CCFFCC, #FF0000);
 }
 
-.navigation{
-   border: 1px #34495E;
-   display: flex;
-   margin:0;
-   padding:0;
-   justify-content:center;
-   background: #34495E;
 
+
+
+.navigation{ 
+
+  border: 1px splid gray;
+  display: flex; 
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  background: black;
+  
 }
 
-.navigation li {
-  margin: 6px;
-  padding: 6px;
-  flex-direction:row;
+
+.navigation li{
+  border: 1px splid gray;
+  flex-direction: row;
   list-style: none;
-  font-size:150%;
+  margin: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: white;
 }
+
+/* Style the navbar */
+#navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Navbar links */
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+/* Page content */
+.content {
+  padding: 16px;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
+}
+
+
+
+
+
 a{
   text-decoration:none;
+}
+p1{
+  font-size: 30px;
+
+
+}
+body{
+
+  font-size: 35px;
+
 }
