@@ -1,21 +1,10 @@
 body{
-  font-family:titillium web;
+  font-family:'titillium web';
   margin: 0;
   padding: 0;
   height: 200%;
 }
-
-.navigation{ 
-  border: 1px splid gray;
-  display: flex; 
-  margin: 0;
-  padding: 0;
-  justify-content: center;
-  background: black;
-  }
-
-
-  .navigation li{
+  .navbar li{
     border: 1px splid gray;
     flex-direction: row;
     list-style: none;
