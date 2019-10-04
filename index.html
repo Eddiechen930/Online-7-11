@@ -1,5 +1,27 @@
 <!DOCTYPE html>
 <html>
+  <head>
+      <title>7-11</title>
+      <link rel="stylesheet" href="style.css">
+      <meta charset="utf-8">
+<html>
+  <head>
+      <title>My Portfolio</title>
+      <link rel="stylesheet" href="style.css">
+      <link href="https://fonts.googleapis.com/css?family=Titillium+Web&display=swap" rel="stylesheet">
+      <meta charset="utf-8">
+  </head>
+  <body>
+      <!-- THIS IS THE NAVIGATION BAR-->
+     </ul>
+     <div id="navbar">
+       <a href="index.html"><li> Home Page</li></a>
+       <a href="about.html"><li> About</li></a>
+    </div>
+  <div class="content">
+   </body>
+   <script>
+   window.onscroll = function() {myFunction()};
 <head>
         <title>7-11</title>
         <link rel="stylesheet" href="style.css">
@@ -25,9 +47,25 @@ p8nYKf2YyKYUzZ4du7Tx7ZLRuNIkW3mP2vE359dV/Z2t+1p+bvlvtuGKC7CtTNr2uAwLa92UNPDauMFa
 </body>
 
 
+   var navbar = document.getElementById("navbar");
+   var sticky = navbar.offsetTop;
 
-<!--Energy Drink(Jelina) -->
-<div id="#energydrink">
+   function myFunction() {
+     if (window.pageYOffset >= sticky) {
+       navbar.classList.add("sticky")
+     } else {
+       navbar.classList.remove("sticky");
+     }
+   }
+   </script>
+      <a href="#energydrink">
+      <img src="https://www.dollargeneral.com/media/catalog/product/cache/image/700x700/e9c3970ab036de70892d86c6d221abfe/5/b/5b17eaea-54d2-4a87-bb76-e35d548c08bc_1.e758f9d1b7d1de8ac12ba6c90589a1f4.jpeg" alt="energy drink" width="350" height="410">
+      <p>Energy Drink</p>
+      </a>
+     
+     
+      <!--Energy Drink(Jelina) -->
+<div id="energydrink">
 
 
 
@@ -48,3 +86,9 @@ p8nYKf2YyKYUzZ4du7Tx7ZLRuNIkW3mP2vE359dV/Z2t+1p+bvlvtuGKC7CtTNr2uAwLa92UNPDauMFa
 
   </body>
 </html>
+
+
+  </body>
+</html>
+
+      
