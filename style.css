@@ -4,6 +4,20 @@ body{
   padding: 0;
   height: 200%;
 }
+<<<<<<< HEAD
+=======
+
+.navbar{ 
+  border: 1px splid white;
+  display: flex; 
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  background-color: black;
+  }
+
+
+>>>>>>> b519841f7a17b6fd72111106b64e359e44788728
   .navigation li{
     border: 1px splid gray;
     flex-direction: row;
