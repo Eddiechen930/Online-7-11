@@ -4,7 +4,7 @@ body{
   padding: 0;
   height: 200%;
 }
-  .navbar li{
+  .navigation li{
     border: 1px splid gray;
     flex-direction: row;
     list-style: none;
