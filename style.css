@@ -18,7 +18,7 @@ body{
 
 
 >>>>>>> b519841f7a17b6fd72111106b64e359e44788728
-  .navigation li{
+  .navbar li{
     border: 1px splid gray;
     flex-direction: row;
     list-style: none;
