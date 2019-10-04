@@ -17,7 +17,7 @@ body{
 
 
   .navigation li{
-    border: 1px splid gray;
+    border: 1px splid white;
     flex-direction: row;
     list-style: none;
     margin: 20px;
