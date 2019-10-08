@@ -51,4 +51,19 @@ a{
 .btn-success{
   background-color: rgb(24, 185, 24);
   font-size: 50px;
+  border: 1px splid rgb(24, 185, 24);
+  color: white;
 }
+.introduction{
+  width:55%;
+    margin-right:2%;
+    float: right;
+}
+.picture{
+  width:42%;
+    float: right;
+}
+.clearfix{
+  clear:both
+}
+
