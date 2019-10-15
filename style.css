@@ -6,7 +6,8 @@ body{
   font-size:140%;
   height: 330vh;
   border: 1px solid grey;
- div hover {
+  image:
+  div hover {
 
   }
 }
@@ -101,13 +102,14 @@ a{
   background-color: none;
   display: grid;
   /* There will be 3 columns, each 200px wide */
-  grid-template-columns: 300px 400px 400px;
+  grid-template-columns: 300px 300px 300px;
   /* There will be 2 rows, each 250px high */
   grid-template-rows: 400px 400px 400px ;
   justify-content: center;
   grid-gap: 1em;
   height: 800px;
   padding: 1em;
+  
 }
 
 .cards {
