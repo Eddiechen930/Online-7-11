@@ -4,7 +4,6 @@ body{
   margin:0 ;
   padding: 0 ;
   font-size:140%;
-  height: 330vh;
   border: 1px solid grey;
   height: 200%;
   div hover {
@@ -26,7 +25,7 @@ body{
     border: 1px splid gray;
     flex-direction: row;
     list-style: none;
-    margin: 20px;
+    margin: 15px;
     padding-left: 20px;
     padding-right: 20px;
     color: white;
