@@ -5,16 +5,12 @@ body{
   font-size:140%;
   height:1000%;
   border: 1px solid grey;
-<<<<<<< HEAD
-  
-=======
   height: 200%;
   div hover {
 
   }
->>>>>>> 48e7ea0c9a7756c76c5d83b62fe0599a4c98c6aa
-}
 
+}
 .navbar{ 
   border: 1px solid rgb(86, 168, 18);
   display: flex;
@@ -100,7 +96,6 @@ a{
 .container-item h1 {
   color: grey;
   text-align: center;
-<<<<<<< HEAD
   padding: 10px 0;
   background-color: rgb(248, 226, 226);
   font-size:60%;
@@ -114,6 +109,7 @@ a{
   text-align: center;
   height:20px;
   font-family:livvic;
+  background-color:rgb(230, 223, 223);
 }
 
 .seven {
@@ -172,8 +168,12 @@ display: inline;
   font-size: 90%;
 }
 
-.p {
-padding: 50px;
-color: gray;
+.footer{
+  margin:0;
+  padding:0;
+  font-size:25px;
+  width: 100%;
+  background-color: grey;
+  color: white;
+  text-align: center;
 }
-
