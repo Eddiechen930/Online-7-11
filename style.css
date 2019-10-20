@@ -22,7 +22,7 @@ body{
 
 
   .navbar li{
-    border: 1px splid gray;
+    border: 1px splid rgb(128, 128, 128);
     flex-direction: row;
     list-style: none;
     margin: 15px;
@@ -109,7 +109,7 @@ a{
   text-align: center;
   height:20px;
   font-family:livvic;
-  background-color:rgb(230, 223, 223);
+background: linear-gradient(0deg, rgb(87, 124, 204), rgb(235, 117, 117));
 }
 
 .seven {
@@ -133,7 +133,7 @@ display: inline;
   font-family: Nunito, Open Sans, sans-serif;
   height: auto; 
   /* height automatically to fit all elements */
-  background: #fcfaee;
+  background: #f3ecc5;
   display: flex;
   /* sets div to flexbox */
   flex-wrap: wrap;
