@@ -5,7 +5,7 @@ body{
   font-size:140%;
   height:1000%;
   border: 1px solid grey;
-  height: 200%;
+  height: 1000px;
   div hover {
 
   }
@@ -109,7 +109,7 @@ a{
   text-align: center;
   height:20px;
   font-family:livvic;
-background: linear-gradient(0deg, rgb(87, 124, 204), rgb(235, 117, 117));
+background: #f3e073;
 }
 
 .seven {
@@ -176,4 +176,9 @@ display: inline;
   background-color: grey;
   color: white;
   text-align: center;
+}
+
+.mypage {
+
+  
 }
