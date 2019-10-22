@@ -1,3 +1,4 @@
+/*Raymond CSS*/
 body{
   font-family: 'Open Sans Condensed', sans-serif;
   margin:0 ;
@@ -9,7 +10,7 @@ body{
   div hover {
 
   }
-
+/* End*/
 }
 .navbar{ 
   border: 1px solid rgb(86, 168, 18);
@@ -101,7 +102,9 @@ a{
   font-size:60%;
   margin:0 0;
 }
+/*Eddie style end*/
 
+/*Raymond CSS*/
 #myHeader {
   color: rgb(243, 138, 138);
   margin: -20px;
@@ -182,3 +185,4 @@ display: inline;
 
   
 }
+/* Raymond CSS end*/
