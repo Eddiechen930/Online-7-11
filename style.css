@@ -1,3 +1,5 @@
+
+
 /*Raymond CSS*/
 body{
   font-family: 'Open Sans Condensed', sans-serif;
@@ -82,7 +84,6 @@ a{
 }
 
 .container-item{
-  height: 300px;
   width: 200px;
   margin: 1em;
   background: gray;
@@ -92,6 +93,8 @@ a{
   object-fit: cover;
   width: 100%;
   height: 70%;
+  margin: 0;
+  padding: 0;
 }
 
 .container-item:hover {
@@ -224,3 +227,19 @@ display: inline;
   
 }
 /* Raymond CSS end*/
+
+.p{
+  margin:50px;
+  padding-top:0px;
+}
+
+.header{
+
+  margin-right:70px;
+  padding:0;
+  font-size:50px;
+  width: 100%;
+  color: rgb(14, 13, 13);
+  text-align:center;
+
+}
