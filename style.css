@@ -6,7 +6,6 @@ body{
   margin:0 ;
   padding: 0 ;
   font-size:140%;
-  height:1000%;
   border: 1px solid grey;
   height: 1000px;
   div hover {
@@ -187,7 +186,7 @@ a{
   text-align: center;
   height:20px;
   font-family:livvic;
-background: #f3e073;
+background: #f8ea9a;
 }
 
 .seven {
@@ -211,7 +210,7 @@ display: inline;
   font-family: Nunito, Open Sans, sans-serif;
   height: auto; 
   /* height automatically to fit all elements */
-  background: #f3ecc5;
+  background: #f5ebb7;
   display: flex;
   /* sets div to flexbox */
   flex-wrap: wrap;
@@ -225,7 +224,7 @@ display: inline;
   height: 280px;
   width: 200px;
   margin: 1em;
-  background: #ffffff;
+  background: #f5f4f4e5;
   transition: 0.2s;
 }
 
@@ -312,3 +311,4 @@ display: inline;
   text-align:center;
 
 }
+
