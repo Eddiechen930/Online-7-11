@@ -86,7 +86,7 @@ a{
 .container-item{
   width: 200px;
   margin: 1em;
-  background: gray;
+  background: rgb(221, 221, 221);
 }
 
 .container-item img {
@@ -122,7 +122,7 @@ a{
   height: 300px;
   width: 200px;
   margin: 1em;
-  background: gray;
+  background: rgb(221, 220, 220);
 }
 
 .noodlecontainer-item img {
