@@ -107,7 +107,6 @@ a{
   font-size:60%;
   margin:0 0;
 }
-
 .noodlecontainer {
   height: auto; 
   background: #fffbe0;
@@ -176,23 +175,6 @@ a{
   font-size:60%;
   margin:0 0;
 }
-.p{
-  margin:0px;
-  padding:50px;
-  background: #fffbe0;
- 
-}
-.header{
-  margin:0px;
-  padding:70px;
-  font-size:50px;
-  width: 100%;
-  color: rgb(14, 13, 13);
-  text-align:center;
-  background: #fffbe0;
-}
-
-
 /* End */
 
 
@@ -200,11 +182,12 @@ a{
 #myHeader {
   color: rgb(243, 138, 138);
   margin: 0px;
-  padding: 95px;
+  padding-top:55px;
+  padding-bottom:65px;
   text-align: center;
   height:20px;
   font-family:livvic;
-background: #f8ea9a;
+background: rgb(248, 238, 146);
 }
 
 .seven {
@@ -314,26 +297,19 @@ display: inline;
 }
 /* Raymond CSS end*/
 
-
-
-.p2 {
+.pee{
   margin:50px;
-  padding-top:0px;
-  
+  padding:0px;  
+  line-height:50px;
 }
 
-.header{
 
-  margin-right:70px;
-  padding:0;
+.header{
+  margin:40px;
+  padding:0px;
   font-size:40px;
   width: 100%;
   color: rgb(14, 13, 13);
-  text-align:center;
+}
 
-}
-.nodledetail {
-margin:10px;
-padding:10px;
-}
 
