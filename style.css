@@ -107,6 +107,7 @@ a{
   font-size:60%;
   margin:0 0;
 }
+
 .noodlecontainer {
   height: auto; 
   background: #fffbe0;
@@ -175,6 +176,23 @@ a{
   font-size:60%;
   margin:0 0;
 }
+.p{
+  margin:0px;
+  padding:50px;
+  background: #fffbe0;
+ 
+}
+.header{
+  margin:0px;
+  padding:70px;
+  font-size:50px;
+  width: 100%;
+  color: rgb(14, 13, 13);
+  text-align:center;
+  background: #fffbe0;
+}
+
+
 /* End */
 
 
@@ -296,10 +314,7 @@ display: inline;
 }
 /* Raymond CSS end*/
 
-.p{
-  margin:50px;
-  padding-top:0px;
-}
+
 
 .header{
 
