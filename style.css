@@ -33,6 +33,12 @@ body{
     padding-right: 20px;
     color: white;
   }
+
+  body{
+    font-size: 30px;
+  }
+  
+  a{
   /* End*/
   /*Raymond*/
  a{
@@ -107,6 +113,31 @@ a{
   font-size:60%;
   margin:0 0;
 }
+/*Jelina Chen*/
+
+#buttons {
+  padding-top: 50px;
+  text-align: center;
+  font-family: 'Open Sans', 'sans-serif';
+}
+
+.Button{
+  border-radius: 5px;
+  padding: 15px 25px;
+  font-size: 25px;
+  text-decoration: none;
+  margin: 10px;
+  color: #fff;
+  position: relative;
+  display: inline-block;
+  background-color: #28cf4c;
+}
+
+
+
+
+
+
 .noodlecontainer {
   height: auto; 
   background: #fffbe0;
