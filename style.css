@@ -7,7 +7,6 @@ body{
   padding: 0 ;
   font-size:140%;
   border: 1px solid grey;
-  height: 1000px;
 }
 /* Eddie*/
 .navbar{ 
@@ -273,10 +272,6 @@ display: inline;
   text-align: center;
 }
 
-.mypage {
-
-  
-}
 .chipcontainer {
   height: auto; 
   background: #fffbe0;
@@ -316,7 +311,7 @@ display: inline;
 .pee{
   margin:50px;
   padding:0px;  
-  line-height:50px;
+  line-height:45px;
 }
 
 
@@ -327,5 +322,7 @@ display: inline;
   width: 100%;
   color: rgb(14, 13, 13);
 }
+
+
 
 
