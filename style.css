@@ -126,7 +126,7 @@ a{
 
 .noodlecontainer {
   height: auto; 
-  background: #fffbe0;
+  background: #2c2916;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -309,12 +309,6 @@ display: inline;
 }
 /* Raymond CSS end*/
 
-.pee{
-  margin:0px;
-  padding:50px;  
-  line-height:50px;
-  background: #fffbe0;
-}
 
 
 .header{
