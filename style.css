@@ -7,6 +7,7 @@ body{
   font-size:140%;
   border: 1px solid grey;
   
+  height:0px;
 }
 /* Eddie*/
 .navbar{ 
@@ -100,7 +101,7 @@ a{
   transform: scale(1.1);
 }
 
-.container-item h1 {
+.container-item h4 {
   color: grey;
   text-align: center;
   padding: 10px 0;
@@ -272,10 +273,6 @@ display: inline;
   text-align: center;
 }
 
-.mypage {
-
-  
-}
 .chipcontainer {
   height: auto; 
   background: #fffbe0;
@@ -349,3 +346,8 @@ display: inline;
   background-color: #28cf4c;
 }
 
+.hotdogchart{
+  font-size:20px;
+  line-height:1.5em;
+  
+}
