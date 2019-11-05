@@ -1,5 +1,4 @@
 
-
 /*Raymond CSS*/
 body{
   font-family: 'Open Sans Condensed', sans-serif;
@@ -7,7 +6,7 @@ body{
   padding: 0 ;
   font-size:140%;
   border: 1px solid grey;
-  height: 1000px;
+  height:0px;
 }
 /* Eddie*/
 .navbar{ 
@@ -68,9 +67,8 @@ a{
   text-align: left;
   padding: 30px 0;
   font-family: Nunito, Open Sans, sans-serif;
-
-
 }
+
 /*End*/
 /* Eddie style */
 .container {
@@ -101,7 +99,7 @@ a{
   transform: scale(1.1);
 }
 
-.container-item h1 {
+.container-item h4 {
   color: grey;
   text-align: center;
   padding: 10px 0;
@@ -246,7 +244,7 @@ display: inline;
 }
 
 .my-container {
-  margin-top: 0;
+  margin: 0;
   padding: 0;
   font-family: Nunito, Open Sans, sans-serif;
   height: auto; 
@@ -275,7 +273,6 @@ display: inline;
 
 .my-container-item img {
   object-fit: cover;
-  /* Makes the image fit nicely as a cover */
   width: 100%;
   height: 75%;
   background-color:rgb(231, 228, 228);
@@ -297,10 +294,6 @@ display: inline;
   text-align: center;
 }
 
-.mypage {
-
-  
-}
 .chipcontainer {
   height: auto; 
   background: #fffbe0;
@@ -337,19 +330,39 @@ display: inline;
 }
 /* Raymond CSS end*/
 
-.pee{
-  margin:50px;
-  padding:0px;  
-  line-height:50px;
-}
 
 
 .header{
-  margin:40px;
-  padding:0px;
+  margin:0px;
+  padding:40px;
   font-size:40px;
   width: 100%;
   color: rgb(14, 13, 13);
+  background: #fffbe0;
 }
 
+/*Jelina Chen*/
 
+#buttons {
+  padding-top: 50px;
+  text-align: center;
+  font-family: 'Open Sans', 'sans-serif';
+}
+
+.Button{
+  border-radius: 5px;
+  padding: 15px 25px;
+  font-size: 25px;
+  text-decoration: none;
+  margin: 10px;
+  color: #fff;
+  position: relative;
+  display: inline-block;
+  background-color: #28cf4c;
+}
+
+.hotdogchart{
+  font-size:20px;
+  line-height:1.5em;
+  
+}
