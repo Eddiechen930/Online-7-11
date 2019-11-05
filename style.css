@@ -6,6 +6,7 @@ body{
   padding: 0 ;
   font-size:140%;
   border: 1px solid grey;
+
   height:0px;
 }
 /* Eddie*/
@@ -33,6 +34,7 @@ body{
     font-size: 30px;
   }
   
+
 
   /* End*/
   /*Raymond*/
@@ -63,7 +65,7 @@ a{
   background-color: #333;
 }
 .content{
-  color:black
+  color:black;
   text-align: center;
   padding: 30px 0;
   font-family: Nunito, Open Sans, sans-serif;
@@ -72,41 +74,41 @@ a{
 }
 /*End*/
 /* Eddie style */
-.container {
-  height: auto; 
-  background: #fffbe0;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  padding: 40px 0;
-  
+
+
+.hotdog-body {
+  height: 1000px;
 }
 
-.container-item{
-  width: 200px;
-  margin: 1em;
-  background: rgb(221, 221, 221);
+.linkone{
+width:300px;
+float:left;
+height:450px;
+background:white;
+margin:90px;
 }
 
-.container-item img {
-  object-fit: cover;
-  width: 100%;
-  height: 70%;
-  margin: 0;
-  padding: 0;
+.hotdogtext{
+width: 600px; 
+float:left; 
+height:300px;
+background:white;
+margin:90px;
 }
 
-.container-item:hover {
-  transform: scale(1.1);
+.hotdogt{
+  font-size:90%;
 }
 
-.container-item h4 {
-  color: grey;
-  text-align: center;
-  padding: 10px 0;
-  font-size:60%;
-  margin:0 0;
+.hotdogti{
+ font-size:70%;
 }
+
+.hotdogtit{
+font-size:50%;
+line-height: 2em;
+}
+/*----------------------------------------*/
 /*Jelina Chen*/
 
 .buy-button {
@@ -121,6 +123,44 @@ a{
   font-size: 25px;
   margin: 4px 2px;
   cursor: pointer;
+}
+
+.linkthree{
+  width: 300px;
+ float:left;
+ height:450px;
+ background:white;
+ margin-right:70px;
+ margin-left:90px;
+ padding-top:85px;
+}
+
+.noodlet{
+font-size:100%;
+}
+
+.noodleti{
+font-size:60%;
+line-height:2em;
+}
+
+.noodletext{
+  width: 600px;
+  float:left;
+  height:300px;
+  background:white;
+  margin-left:280px;
+  margin-right:90px;
+  padding-top:50px;
+}
+
+.noodlechart{
+  font-size:20px;
+  line-height:1.5em;
+  list-style-type: none;
+  text-align: left;
+  float: left;
+  padding-left:80px;
 }
 
 .noodlecontainer {
@@ -138,6 +178,7 @@ a{
   width: 190px;
   margin: 2em;
   background: rgb(230, 230, 230);
+ 
 }
 
 .noodlecontainer-item img {
@@ -157,6 +198,36 @@ a{
   font-size:23px;
   margin:0 0;
 }
+
+.linkfour{
+  width: 300px;
+  float:left;
+  height:450px;
+  background:white;
+  margin-right:70px;
+  margin-left:90px;
+  padding-top:85px;
+}
+
+.coffeetext{
+  width: 600px;
+  float:left;
+  height:300px;
+  background:white;
+  margin-left:280px;
+  margin-right:90px;
+  padding-top:50px;
+}
+
+.coffeet{
+font-size:100%; 
+}
+
+.coffeeti{
+font-size:60%; 
+line-height:30px; 
+}
+
 .coffeecontainer {
   height: auto; 
   background: #fffbe0;
@@ -272,6 +343,26 @@ display: inline;
   text-align: center;
 }
 
+.linktwo{
+ width: 300px;
+ float:left;
+ height:450px;
+ background:white;
+ margin:90px;
+}
+
+.chiptext{
+width: 600px;
+float:left;
+height:300px;
+background:white;
+margin:90px;
+}
+
+.chipt{
+font-size:100%;
+}
+
 .chipcontainer {
   height: auto; 
   background: #fffbe0;
@@ -342,5 +433,15 @@ display: inline;
 .hotdogchart{
   font-size:20px;
   line-height:1.5em;
+  list-style-type: none;
+  text-align: left;
+  float: left;
+}
+
+.introduction{
+  font-size:25px; 
+  margin:90px; 
+  padding:0px;
+  line-height:2em;
   
 }
