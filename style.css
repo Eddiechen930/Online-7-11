@@ -1,5 +1,4 @@
 
-
 /*Raymond CSS*/
 body{
   font-family: 'Open Sans Condensed', sans-serif;
@@ -7,7 +6,7 @@ body{
   padding: 0 ;
   font-size:140%;
   border: 1px solid grey;
-  height: 1000px;
+  
 }
 /* Eddie*/
 .navbar{ 
